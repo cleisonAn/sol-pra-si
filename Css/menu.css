@@ -1,0 +1,108 @@
+/* Menu   */
+nav.menu-lateral{
+    width: 50px;
+    height: 100%;
+    background-color: #F4ECEC;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(216, 215, 215);
+    position: fixed;
+    top:0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+ 
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir >i{
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+ 
+ul li.item-menu:hover{
+    background: white;
+}
+ 
+ul li.item-menu a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+}
+ 
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+ 
+ul li.item-menu a .icon >i{
+    font-size: 20px;
+    color:#4d4949;
+    margin-left: 10px;
+}
+
+
+/* Menu   */
+
+.buttonleft{
+    margin-left:687px ;
+    margin-top: 20px;
+}
+
+.buttonleft a {
+    font-size: 16px;
+    color: var(--alink-color);
+    
+}
+
+.buttonleft a:hover{
+    color:var(--ahover-color);
+}
+
+
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/* botão   */
+
+button{
+    background-color: var(--button-color);
+    padding: 5px;
+    border-radius: 10px;
+    width: 90px;
+    border: none;
+    align-items: center;
+    margin: auto;
+    display: block;
+    text-align: center;
+    
+}
+
+button a{
+    font-size: 16px;
+    color: var(--alink-color);
+    text-decoration: none;
+}
+
+button a:hover{
+    color:var(--ahover-color);
+}
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */

@@ -1,0 +1,324 @@
+
+
+@import url(menu.css);
+
+@import url(footer.css);
+
+/*    Reset ( * )   */
+
+*{
+    padding: 0;
+    margin: 0;
+   
+   
+}
+
+/* Fontes   */
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Peralta&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*  Variaveis  */
+
+:root {
+   /* Variáveis para cores*/
+   
+   --main-color: #F4ECEC;
+   --button-color: #E74747;
+   --paragraf-color:#726C6C;
+   --ahover-color: #030000;
+   --alink-color: #FFFFFF;
+
+
+   
+
+   /* Variáveis para Textos*/
+
+    --texto-principal: "Georgia",serif;
+    --text-secund:  "Roboto", serif;
+} 
+
+
+
+
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*  body  */
+
+
+body {
+   background-color:var(--main-color);
+    
+
+   margin: 0 auto; 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center;
+    
+}
+
+main{
+   
+   width: 802px;
+   
+
+
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+  
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*  Texto  */
+
+h1{
+   align-items: left; 
+   width: 367px;
+   font-size: 24px;
+   margin-bottom: 20px;
+   font-family: var(--texto-principal);
+
+    
+}
+
+h2{
+   font-family: var(--texto-principal);
+   margin-bottom: 20px;
+}
+
+.subtext{ /* Texto no centro com 16 de tamanho*/
+    font-size: 16px ;
+    
+    margin-bottom: 30px;
+   
+
+}
+
+.textCent { /* Texto no centro coom 24 de tamanho*/
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+h3{
+    font-size: 16px ;
+    margin-bottom: 15px;
+    font-family: var(--texto-principal);
+
+}
+
+p{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: var(--text-secund)
+
+    
+}
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/* Apresentações  */
+.conteiner_Apre{
+   width: 800px;
+   height: 823px;
+   
+}
+
+.img_cont1 img{/*  Imagem a esquerda e texto a direita */
+   display: block;
+}
+
+.textcont1{
+   position: relative;
+   left: 300px;
+   bottom: 195px;
+   margin-left: 100px;
+   text-align: justify;
+   width: 347px;
+   height: 64px;
+   
+
+}
+
+.textcont1 h2{
+   position: relative;
+   text-align: center;
+
+}
+
+.img_cont2 img{ /*  Imagem a direita e texto a esquerda  */
+   display: block;
+   position: relative;
+   left: 400px;
+   bottom: 530px;
+   
+   
+}
+
+.textcont2{
+   position: relative;
+   right: 10px;
+   bottom: 720px;
+   text-align: justify;
+   width: 347px;
+   height: 64px;
+}
+
+.textcont2 h2{
+   position: relative;
+   text-align: center;
+}
+
+.icont1{
+   
+   height: 823px;
+} 
+
+.img_cont3 img{/*  Imagem a esquerda e texto a direita */
+   display: block;
+   position: relative;
+   bottom: 1060px;
+  
+   
+   
+}
+
+.textcont3{
+   position: relative;
+   left: 400px;
+   bottom: 1250px;
+   text-align: justify;
+   width: 347px;
+   height: 64px;
+   
+
+}
+.textcont3 h2{
+   position: relative;
+   text-align: center;
+}
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*  seção oficinas   */
+.conteiner{
+   height: 434px;
+   width: 800px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+  
+}
+.conteiner1{
+   margin-bottom: 10px;
+   margin-top: 30px;
+   width: 800px;
+   height: 200px;
+}
+
+.menu_itens{
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+.itens img{
+   
+   border-radius: 16px;
+   margin-top: -10px;
+   
+   
+}
+
+.itens p{
+ position: relative;
+ text-align: center;
+ padding: 4px;
+ width: 176px;
+ bottom: 20px;
+ background-color: #FFFFFF;
+ right: 20px;
+ border-bottom-right-radius: 16px;
+ border-bottom-left-radius: 16px;
+ 
+}
+
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*  seção veja nosso dia a dia  */
+.contV{
+   width: 800px;
+   height: 250px;
+}
+.gift_img img{
+ 
+   border-radius: 5px;
+   box-shadow: 6px 6px 7px 3px #999898;
+   margin-right: 20px;
+   
+}
+
+.itensg{
+   display: flex;
+  
+}  
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*  sobre nos  */
+
+
+.img_cont img{
+   display: block;
+   width: 324px;
+   height: 216px;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+.textcont{
+   position: relative;
+   left: 300px;
+   bottom: 180px;
+   margin-left: 82px;
+   text-align: justify;
+   width: 347px;
+   height: 64px;
+}
+.icont{
+   
+   height: 230px;
+}  
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*    */
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*    */
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*    */
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
+/*    */
+
+/* -----------*------------------------*-------------------------*----------------------*---------------------*------------------  */
+
